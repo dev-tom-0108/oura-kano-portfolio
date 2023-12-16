@@ -121,18 +121,18 @@ const technologies = [
     name: "SOL",
     icon: sol,
   },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   {
     name: "AWS",
     icon: aws,
@@ -151,18 +151,18 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Bootstrap 5",
-    icon: bootstrap,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Bootstrap 5",
+  //   icon: bootstrap,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -171,18 +171,18 @@ const technologies = [
     name: "PHP",
     icon: php,
   },
-  {
-    name: "Jakarta EE",
-    icon: jakarta,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "MySQL",
-    icon: mysql,
-  },
+  // {
+  //   name: "Jakarta EE",
+  //   icon: jakarta,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "MySQL",
+  //   icon: mysql,
+  // },
   {
     name: "Git",
     icon: git,
