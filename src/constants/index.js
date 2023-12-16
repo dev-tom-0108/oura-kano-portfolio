@@ -15,23 +15,39 @@ import {
   git,
   php,
   jakarta,
-  smartphone,
-  blog,
-  adoptme,
-  crud,
-  medicalfile,
-  movie,
   mysql,
-  microsoft,
   fcc,
-  udemy,
   two,
   iii,
   kob,
   simp,
   wire,
   rust,
-  solidity
+  solidity,
+  solarmy,
+  yieldz,
+  jackpot,
+  inkubate,
+  taxi,
+  eu,
+  mk,
+  ta,
+  dusty,
+  gptzero,
+  seattle,
+  foxtopia,
+  fox,
+  honey,
+  bored,
+  tri,
+  aws,
+  go,
+  typescript,
+  web3,
+  eth,
+  anchor,
+  sol,
+  hardhat
 } from "../assets";
 
 export const navLinks = [
@@ -46,6 +62,14 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "tech",
+    title: "Tech",
+  },
+  {
+    id: "works",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -82,6 +106,22 @@ const technologies = [
     icon: solidity,
   },
   {
+    name: "Anchor",
+    icon: anchor,
+  },
+  {
+    name: "Hardhat",
+    icon: hardhat,
+  },
+  {
+    name: "ETH",
+    icon: eth,
+  },
+  {
+    name: "SOL",
+    icon: sol,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -92,6 +132,20 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Go",
+    icon: go,
+  },{
+    name: "Typescript",
+    icon: typescript,
+  },{
+    name: "Web3",
+    icon: web3,
   },
   {
     name: "React JS",
@@ -207,22 +261,22 @@ const experiences = [
 
 const certifications = [
   {
-    certification: "The Complete React Redux Node Express MySql Developer",
-    name: "Udemy",
-    date: "Mar 2023",
-    image: udemy,
+    certification: "Rust Certification",
+    name: "Triplebyte",
+    date: "2022",
+    image: tri,
   },
   {
-    certification: "Front End Development Libraries ",
-    name: "FreeCodeCamp",
-    date: "Nov 2022",
-    image: fcc,
+    certification: "Node Certification",
+    name: "Triplebyte",
+    date: "2022",
+    image: tri,
   },
   {
-    certification: "Responsive Web Design ",
-    name: "FreeCodeCamp",
-    date: "May 2022",
-    image: fcc,
+    certification: "Python Certification",
+    name: "Triplebyte",
+    date: "2021",
+    image: tri,
   },
   {
     certification: "JavaScript Algorithms and Data Structures ",
@@ -231,147 +285,394 @@ const certifications = [
     image: fcc,
   },
   {
-    certification: "Azure Fundamentals",
-    name: "Microsoft",
-    date: "Jan 2023",
-    image: microsoft,
-  },
-  {
-    certification: "Azure AI Fundamentals",
-    name: "Microsoft",
-    date: "Feb 2023",
-    image: microsoft,
+    certification: "College Algebra with Python certification ",
+    name: "FreeCodeCamp",
+    date: "Jun 2021",
+    image: fcc,
   },
 ];
 
 const projects = [
   {
-    name: "Smartphone Store",
+    name: "Yieldzprotocol - Defi",
     description:
-      "This application allows users to browse, search, and purchase mobile phones and accessories. Additionally, it provides admin pages to manage products, categories, and user orders.",
+      "Yieldz is the first multi Layered real-yield DeFi ecosystem. Our mission is to provide a sustainable system and bring stability and long-term solutions for Defi investors.",
     tags: [
+      {
+        name: "Ethereum",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
       {
         name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NodeJs ",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MongoDB",
         color: "pink-text-gradient",
       },
-    ],
-    image: smartphone,
-    source_code_link: "https://github.com/Bahri-Adem/Mobile-Store-MERN-APP",
-  },
-  {
-    name: "Medical File",
-    description:
-      "The project is to develop a web application that centralizes patients' medical data for all healthcare providers (medical clinics, laboratories, pharmacies).",
-    tags: [
       {
-        name: "JEE",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MySQL",
-        color: "pink-text-gradient",
+        name: "Defi",
+        color: "orange-text-gradient",
       },
     ],
-    image: medicalfile,
+    image: yieldz,
     source_code_link:
-      "https://github.com/Bahri-Adem/Application-Web-Des-Patients",
+      "https://github.com/dev-tom-0108/Double_yield_staking_solidity",
   },
   {
-    name: "IT Blog",
+    name: "Solarmy NFT Game",
     description:
-      "A user-friendly blog platform for creating, reading, and editing posts. Intuitive design, categorized content, and user interactions through comments and likes.",
+      "The Solarmy is an interdimensional freedom fighting army of the future where all members are connected to each other through a high tech implant.",
     tags: [
       {
-        name: "PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MySQL",
+        name: "Solana",
         color: "pink-text-gradient",
       },
-    ],
-    image: blog,
-    source_code_link: "https://github.com/Bahri-Adem/IT-Blog-Php",
-  },
-  {
-    name: "Adopt Me",
-    description:
-      "A compassionate platform connecting pet lovers with their furry soulmates. Simplifying pet adoption, users can explore a wide range of adorable animals seeking forever homes.",
-    tags: [
       {
-        name: "React Js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TailwindCSS",
+        name: "Rust",
         color: "green-text-gradient",
       },
-      {
-        name: "React Query",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: adoptme,
-    source_code_link: "https://github.com/Bahri-Adem/AdoptMe-React-Application",
-  },
-  {
-    name: "Students Managment",
-    description:
-      "Securely manage student profiles with authentication. Admins can view, create, update, and delete data, including name, email, age, and picture. Simplify student record management for educational institutions with ease.",
-    tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Express ",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "pink-text-gradient",
+        name: "Game",
+        color: "orange-text-gradient",
       },
     ],
-    image: crud,
-    source_code_link:
-      "https://github.com/Bahri-Adem/MERN-CRUD-APP-With-Login-and-Registration",
+    image: solarmy,
+    source_code_link: "https://github.com/dev-tom-0108/Solarmy-Staking-Program",
   },
   {
-    name: "Movie Trailer",
+    name: "GPTZero-AI",
     description:
-      "This platform, akin to Netflix, provides users with an immersive experience through a vast collection of movie trailers. With an intuitive interface, users can effortlessly explore a diverse range of films and receive tailored recommendations based on their viewing preferences.",
+      "Trusted & Free ChatGPT content checker tool provides a simple and accurate way to detect AI-generated text from ChatGPT, GPT-4, Bard & Claude. This is integrated OpenAI Chat API. Try it now!",
     tags: [
       {
-        name: "React",
+        name: "AI",
         color: "blue-text-gradient",
       },
       {
-        name: "Redux ",
+        name: "Chatgpt",
         color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "API",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: gptzero,
+    source_code_link: "https://github.com/Bahri-Adem/React-Redux-Movie-Trailer",
+  },
+  
+  {
+    name: "Jackpot Game-P2E",
+    description:
+      "The Slowrug is a kind of Jackpot game which has initially 3 rooms (Tower, Graveyard, Infinite). The players can enter with bet, the winner can get the whole amount.",
+    tags: [
+      {
+        name: "Solana",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rust",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
       },
       {
         name: "NodeJS",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: movie,
-    source_code_link: "https://github.com/Bahri-Adem/React-Redux-Movie-Trailer",
+    image: jackpot,
+    source_code_link: "https://github.com/Bahri-Adem/IT-Blog-Php",
+  },
+  {
+    name: "Metakongz Raffle",
+    description:
+      "This is the raffle project that winners can receive the raffle NFT or winners can buy NFTs by half price by buying tickets. You can buy tickets by using 🦴$BOOGA, 🍭$ZION, and $SOL.",
+    tags: [
+      {
+        name: "Solana",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rust",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Raffle",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: mk,
+    source_code_link: "https://github.com/dev-tom-0108/raffle-pro-contract",
+  },
+  {
+    name: "Inkubate Marketplace",
+    description:
+      "It is an NFT marketplace that forks from Opensea and operates on the Ethereum network. I built SC from Opensea smart contracts (Seaport) and BE on my side from scratch.",
+    tags: [
+      {
+        name: "Ethereum",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NFT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Nest",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: inkubate,
+    source_code_link: "https://github.com/dev-tom-0108/Marketplace_Backend",
+  },
+  {
+    name: "Taxi Game",
+    description:
+      "This is one kind of Sol Crash game. 🚕 Instead of that, the transparent is Taxi. 😜. Degen Taxi proves that the odds are as advertised (5% house edge) and that the rolls cannot react to how players bet.",
+    tags: [
+      {
+        name: "Solana",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rust",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Unity",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Game",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: taxi,
+    source_code_link:
+      "https://github.com/dev-tom-0108/Taxi_Game_Program",
+  },
+  {
+    name: "Foxtopia Staking",
+    description:
+      "This is the fist NFT non-custodial staking project. When the users stake their NFT to the platform, the NFT is frzoen on their wallet until when they unstake them. They can receive the reward as $FOXIE",
+    tags: [
+      {
+        name: "Solana",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rust",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Non-custodial",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: foxtopia,
+    source_code_link: "https://github.com/dev-tom-0108/Foxtopia_NFT_Staking",
+  },
+  
+  {
+    name: "FoxFinance Marketplace",
+    description:
+      "We’ll also be hosting a charity auction with the winning artwork, allowing the FOX community to own a piece of history in the form of an NFT, with proceeds going to a wildlife-oriented charity we plan to reveal.",
+    tags: [
+      {
+        name: "Ethereum",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vue",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Marketplace",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: fox,
+    source_code_link: "https://github.com/dev-tom-0108/nuxt-fox-nft-marketplace",
+  },
+  {
+    name: "Tombstone Auction",
+    description:
+      "This is the auction platform that users can bid with several 💵spl-tokens and the highest bidder(winner) will be receive the NFT. Th winning reward will be got after the expire time.",
+    tags: [
+      {
+        name: "Solana",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rust",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Auction",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: ta,
+    source_code_link: "https://github.com/dev-tom-0108/auction-doge-rust",
+  },
+  {
+    name: "Dustyvault Staking",
+    description:
+      "We are a safe, boring NFT vault. You can pay us to store your NFT’s for the next years. We’re going to lock them in an old vault and keep a watchful eye on them. Like anything put in storage it will get $Dusty over time.",
+    tags: [
+      {
+        name: "Ethereum",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NFT",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: dusty,
+    source_code_link: "https://github.com/dev-tom-0108/dusty-valuts-v2",
+  },
+  
+  {
+    name: "Seattle Staking",
+    description:
+      "30% (30 Million) of the total DUNK token supply is allocated to the Club Key NFTs. In return for the early investment into the SuperKongs, Club Key NFT holders are given a percentage of the DUNK token supply.",
+    tags: [
+      {
+        name: "Ethereum",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NFT",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: seattle,
+    source_code_link: "https://github.com/dev-tom-0108/Superkongz-FE",
+  },
+  {
+    name: "Eternal Underworld Raffle",
+    description:
+      "This is the raffle project that winners can receive the raffle NFT or winners can buy NFTs by half price by buying tickets. You can buy tickets by using 🍂$REAP and $SOL. You can be the winner.",
+    tags: [
+      {
+        name: "Solana",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rust",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Raffle",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: eu,
+    source_code_link: "https://github.com/dev-tom-0108/raffle-frank-rust",
+  },
+  
+  {
+    name: "HoneyFinance",
+    description:
+      "This is one of the big project, I have built NFT lending/borrowing system on Avalanche/Solana. You can lend and borrow NFT from this site and the price comes from the NFT oracle. ",
+    tags: [
+      {
+        name: "Ethereum",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Lending",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: honey,
+    source_code_link: "https://github.com/honey-protocol/evm-lend-nft",
+  },
+  {
+    name: "Boredzillas Minting",
+    description:
+      "This is NFT mint project. The official Bored Zilla Club A collection of 3,333 ERC-721 Zillas, searching for $ZILLA tokens. This is launched on Ethereum and Polygon chains and it has reveal time to reveal images.",
+    tags: [
+      {
+        name: "Ethereum",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Minting",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: bored,
+    source_code_link: "https://github.com/dev-tom-0108/next-board-zilla-club-minting",
   },
 ];
 

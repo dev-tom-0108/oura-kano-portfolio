@@ -1,5 +1,4 @@
 import me from "./me.png";
-import microsoft from "./microsoft.png";
 import fcc from "./fcc.png";
 import udemy from "./udemy.png";
 import backend from "./backend.png";
@@ -25,19 +24,37 @@ import php from "./tech/php.png";
 import mysql from "./tech/mysql.png";
 import rust from "./tech/rust.png";
 import solidity from "./tech/solidity.png";
+import aws from "./tech/aws.png";
+import go from "./tech/go.png";
+import typescript from "./tech/typescript.png";
+import web3 from "./tech/web3.png";
+import eth from "./tech/eth.png";
+import anchor from "./tech/anchor.png";
+import sol from "./tech/sol.png";
+import hardhat from "./tech/hardhat.png";
 
-import two from "./company/two.jpg";
+import two from "./company/two.png";
 import kob from "./company/kob.png";
 import iii from "./company/iii.png";
 import simp from "./company/simp.png";
 import wire from "./company/wire.png";
 
-import medicalfile from "./medicalfile.png";
-import blog from "./blog.png";
-import smartphone from "./smartphone.png";
-import adoptme from "./adoptme.png";
-import crud from "./crud.png";
-import movie from "./movie.png";
+import solarmy from "./solarmy.png";
+import yieldz from "./yieldz.jpeg";
+import jackpot from "./jackpot.png";
+import inkubate from "./inkubate.png";
+import taxi from "./taxi.png";
+import eu from "./eu.png";
+import mk from "./mk.png";
+import ta from "./ta.png";
+import dusty from "./dusty.png";
+import gptzero from "./gptzero.png";
+import seattle from "./seattle.png";
+import foxtopia from "./foxtopia.png";
+import fox from "./fox.png";
+import honey from "./honey.png";
+import bored from "./bored.png";
+import tri from "./tri.png";
 
 export {
   me,
@@ -61,13 +78,6 @@ export {
   tailwind,
   bootstrap,
   mysql,
-  medicalfile,
-  blog,
-  smartphone,
-  adoptme,
-  crud,
-  movie,
-  microsoft,
   fcc,
   udemy,
   two,
@@ -76,5 +86,29 @@ export {
   simp,
   wire,
   rust,
-  solidity
+  solidity,
+  solarmy,
+  yieldz,
+  jackpot,
+  inkubate,
+  taxi,
+  eu,
+  mk,
+  ta,
+  dusty,
+  gptzero,
+  seattle,
+  foxtopia,
+  fox,
+  honey,
+  bored,
+  tri,
+  aws,
+  go,
+  typescript,
+  web3,
+  eth,
+  anchor,
+  sol,
+  hardhat
 };
