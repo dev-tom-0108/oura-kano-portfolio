@@ -16,17 +16,26 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I&apos;m <span className="text-[#915EFF]">Oura</span>
+            Hi, This is <span className="text-[#915EFF]">Oura</span>
           </h1>
+          <br />
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am an experienced Web3 | Full stack dev who is working at 
             <br className="sm:block hidden" />
-            IIInigence Company as Web3 Developer.
+            <span className="text-[#915EFF]">IIInigence</span> Company
           </p>
-        </div>
+          <br/>
+          <br/>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>Also</p>
+          <br/>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            CEO at <span className="text-[#915EFF]">Teonzit Veca</span> - Web3 Tech Agency 
+          </p>
+          
+          </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
