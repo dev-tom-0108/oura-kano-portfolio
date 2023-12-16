@@ -39,7 +39,7 @@ import iii from "./company/iii.png";
 import simp from "./company/simp.png";
 import wire from "./company/wire.png";
 
-import solarmy  from "./solarmy.png";
+import solarmy from "./solarmy.png";
 import yieldz from "./yieldz.jpeg";
 import jackpot from "./jackpot.png";
 import inkubate from "./inkubate.png";
