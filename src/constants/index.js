@@ -367,7 +367,7 @@ const projects = [
       },
     ],
     image: gptzero,
-    source_code_link: "https://github.com/Bahri-Adem/React-Redux-Movie-Trailer",
+    source_code_link: "https://github.com/dev-tom-0108/ZeroGPT-full",
   },
   
   {
@@ -393,7 +393,7 @@ const projects = [
       },
     ],
     image: jackpot,
-    source_code_link: "https://github.com/Bahri-Adem/IT-Blog-Php",
+    source_code_link: "https://github.com/dev-tom-0108/Jackpot_Game_Frontend",
   },
   {
     name: "Metakongz Raffle",
